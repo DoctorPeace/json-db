@@ -1,7 +1,7 @@
-const { writeDb } = require('./dbFunctions')
+const { writeDb } = require("./dbFunctions")
 
-const obj = {
+const dataObj = {
     Chris: 'I am trying to learn json databases'
 }
 
-writeDb(obj)
+writeDb(dataObj)
